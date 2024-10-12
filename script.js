@@ -123,38 +123,38 @@ function updateWord2() {
 
     let translation = "";
 
-    if (lang1 === "english" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "german" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "spanish" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "french" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "italian" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "portuguese" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "dutch" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "norwegian" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "frisian" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "gaelic" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "swedish" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "danish" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "icelandic" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "greek" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "irish" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
-    } else if (lang1 === "russian" && word1 in wordDictionary) {
-        translation = wordDictionary[word1][lang2] || "";
+    if (lang1 === "english" && word1 in englishDictionary) {
+        translation = englishDictionary[word1][lang2] || "";
+    } else if (lang1 === "german" && word1 in germanDictionary) {
+        translation = germanDictionary[word1][lang2] || "";
+    } else if (lang1 === "spanish" && word1 in spanishDictionary) {
+        translation = spanishDictionary[word1][lang2] || "";
+    } else if (lang1 === "french" && word1 in frenchDictionary) {
+        translation = frenchDictionary[word1][lang2] || "";
+    } else if (lang1 === "italian" && word1 in italianDictionary) {
+        translation = italianDictionary[word1][lang2] || "";
+    } else if (lang1 === "portuguese" && word1 in portugueseDictionary) {
+        translation = portugueseDictionary[word1][lang2] || "";
+    } else if (lang1 === "dutch" && word1 in dutchDictionary) {
+        translation = dutchDictionary[word1][lang2] || "";
+    } else if (lang1 === "norwegian" && word1 in norwegianDictionary) {
+        translation = norwegianDictionary[word1][lang2] || "";
+    } else if (lang1 === "frisian" && word1 in frisianDictionary) {
+        translation = frisianDictionary[word1][lang2] || "";
+    } else if (lang1 === "gaelic" && word1 in gaelicDictionary) {
+        translation = gaelicDictionary[word1][lang2] || "";
+    } else if (lang1 === "swedish" && word1 in swedishDictionary) {
+        translation = swedishDictionary[word1][lang2] || "";
+    } else if (lang1 === "danish" && word1 in danishDictionary) {
+        translation = danishDictionary[word1][lang2] || "";
+    } else if (lang1 === "icelandic" && word1 in icelandicDictionary) {
+        translation = icelandicDictionary[word1][lang2] || "";
+    } else if (lang1 === "greek" && word1 in greekDictionary) {
+        translation = greekDictionary[word1][lang2] || "";
+    } else if (lang1 === "irish" && word1 in irishDictionary) {
+        translation = irishDictionary[word1][lang2] || "";
+    } else if (lang1 === "russian" && word1 in russianDictionary) {
+        translation = russianDictionary[word1][lang2] || "";
     }
 
 
