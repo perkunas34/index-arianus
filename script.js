@@ -1,62 +1,62 @@
 const englishDictionary = {
-    "water": { italian: "acqua", french: "eau", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "hello": { italian: "ciao", french: "bonjour", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "goodbye": { italian: "addio", french: "au revoir", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "water": { italian: "acqua", french: "eau", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "hello": { italian: "ciao", french: "bonjour", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "goodbye": { italian: "addio", french: "au revoir", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
     // Diğer İngilizce kelimeler ve karşılıkları
 };
 
 const germanDictionary = {
-    "wasser": { italian: "acqua", french: "eau", english: "water", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "hallo": { italian: "ciao", french: "bonjour", english: "hello", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "auf wiedersehen": { italian: "addio", french: "au revoir", english: "goodbye", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "wasser": { italian: "acqua", french: "eau", english: "water", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "hallo": { italian: "ciao", french: "bonjour", english: "hello", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "auf wiedersehen": { italian: "addio", french: "au revoir", english: "goodbye", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
     // Diğer Almanca kelimeler ve karşılıkları
 };
 
 const spanishDictionary = {
-    "agua": { italian: "acqua", french: "eau", english: "water", german: "wasser", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "hola": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "adiós": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "agua": { italian: "acqua", french: "eau", english: "water", german: "wasser", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "hola": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "adiós": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
     // Diğer İspanyolca kelimeler ve karşılıkları
 };
 
 const frenchDictionary = {
-    "eau": { italian: "acqua", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "bonjour": { italian: "ciao", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "au revoir": { italian: "addio", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "eau": { italian: "acqua", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "bonjour": { italian: "ciao", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "au revoir": { italian: "addio", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
     // Diğer Fransızca kelimeler ve karşılıkları
 };
 
 const italianDictionary = {
-    "acqua": { french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "ciao": { french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "addio": { french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "acqua": { french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "ciao": { french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "addio": { french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
     // Diğer İtalyanca kelimeler ve karşılıkları
 };
 
 const portugueseDictionary = {
-    "água": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "olá": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "adeus": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "água": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "olá": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "adeus": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
 };
 
 const dutchDictionary = {
-    "water": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "hallo": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "tot ziens": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "water": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "hallo": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "tot ziens": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
         // Diğer Felemenkçe kelimeler ve karşılıkları
 };
 
 const norwegianDictionary = {
-    "vann": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "hei": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "ha det": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "vann": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "hei": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "ha det": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
         // Diğer Norveççe kelimeler ve karşılıkları
 };
 
 const frisianDictionary = {
-    "wetter": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "hallo": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "oan 'e dei": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "wetter": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "hallo": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "oan 'e dei": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
         // Diğer Frizce kelimeler ve karşılıkları
 };
 
@@ -64,48 +64,48 @@ const gaelicDictionary = {
     "uisge": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
     "halò": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
     "tìoraidh": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
-        // Diğer İskoçça kelimeler ve karşılıkları
+        // Diğer Galce kelimeler ve karşılıkları
     };
 
 const swedishDictionary = {
-    "vatten": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "hej": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "adjö": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "vatten": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "hej": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "adjö": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
         // Diğer İsveççe kelimeler ve karşılıkları
 };
 
 const danishDictionary = {
-    "vand": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
-    "hej": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "farvel": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "vand": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", icelandic: "vatn", greek: "νερό", irish: "uisce", russian: "вода" },
+    "hej": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "farvel": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", icelandic: "bless", greek: "αντίο", irish: "slán", russian: "до свидания" },
         // Diğer Danca kelimeler ve karşılıkları
 };
 
 const icelandicDictionary = {
-    "vatn": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", greek: "νερό", irish: "uisce", russian: "вода" },
-    "halló": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
-    "bless": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", greek: "αντίο", irish: "slán", russian: "до свидания" },
+    "vatn": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", greek: "νερό", irish: "uisce", russian: "вода" },
+    "halló": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", greek: "γεια σου", irish: "dia dhuit", russian: "привет" },
+    "bless": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", greek: "αντίο", irish: "slán", russian: "до свидания" },
         // Diğer İzlandaca kelimeleri ve karşılıkları
 };
 
 const greekDictionary = {
-    "νερό": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", irish: "uisce", russian: "вода" },
-    "γεια σου": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", irish: "dia dhuit", russian: "привет" },
-    "αντίο": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", irish: "slán", russian: "до свидания" },
+    "νερό": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", irish: "uisce", russian: "вода" },
+    "γεια σου": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", irish: "dia dhuit", russian: "привет" },
+    "αντίο": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", irish: "slán", russian: "до свидания" },
         // Diğer Yunanca kelimeler ve karşılıkları
 };
 
 const irishDictionary = {
-    "uisce": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", russian: "вода" },
-    "dia dhuit": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", russian: "привет" },
-    "slán": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", russian: "до свидания" },
+    "uisce": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", russian: "вода" },
+    "dia dhuit": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", russian: "привет" },
+    "slán": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", russian: "до свидания" },
         // Diğer İrlandaca kelimeleri ve karşılıkları
 };
 
 const russianDictionary = {
-    "вода": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", scottish: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce" },
-    "привет": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", scottish: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit" },
-    "до свидания": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", scottish: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán" },
+    "вода": { italian: "acqua", french: "eau", english: "water", german: "wasser", spanish: "agua", portuguese: "água", dutch: "water", norwegian: "vann", frisian: "wetter", gaelic: "uisge", swedish: "vatten", danish: "vand", icelandic: "vatn", greek: "νερό", irish: "uisce" },
+    "привет": { italian: "ciao", french: "bonjour", english: "hello", german: "hallo", spanish: "hola", portuguese: "olá", dutch: "hallo", norwegian: "hei", frisian: "hallo", gaelic: "halò", swedish: "hej", danish: "hej", icelandic: "halló", greek: "γεια σου", irish: "dia dhuit" },
+    "до свидания": { italian: "addio", french: "au revoir", english: "goodbye", german: "auf wiedersehen", spanish: "adiós", portuguese: "adeus", dutch: "tot ziens", norwegian: "ha det", frisian: "oan 'e dei", gaelic: "tìoraidh", swedish: "adjö", danish: "farvel", icelandic: "bless", greek: "αντίο", irish: "slán" },
         // Diğer Rusça kelimeler ve karşılıkları
 };
 
