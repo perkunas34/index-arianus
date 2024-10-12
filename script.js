@@ -111,9 +111,8 @@ const russianDictionary = {
 
 
 
-
 function updateWord1() {
-    updateWord2(); 
+    updateWord2(); // Kelime 2'yi güncelle
 }
 
 function updateWord2() {
@@ -123,6 +122,7 @@ function updateWord2() {
 
     let translation = "";
 
+    // İlk dilin sözlüğünden kelimeyi kontrol et
     if (lang1 === "english" && word1 in englishDictionary) {
         translation = englishDictionary[word1][lang2] || "";
     } else if (lang1 === "german" && word1 in germanDictionary) {
@@ -158,5 +158,6 @@ function updateWord2() {
     }
 
 
-    document.getElementById("word2").value = translation || "";
+    // İkinci dilin karşılığını ayarla
+    document.getElementById("word2").value = translation || ""; // Geçersiz kelime için boş bırak
 }
