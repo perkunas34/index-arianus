@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Arianus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compare Words In The Indo-European Languages</h1>
+        <div>
+            <label for="language1">Select the first language:</label>
+            <select id="language1" onchange="updateWord1()">
+                <option value="english">English (English)</option>
+                <option value="german">German (Deutsch)</option>
+                <option value="spanish">Spanish (Español)</option>
+                <option value="french">French (Français)</option>
+                <option value="italian">Italian (Italiano)</option>
+                <option value="portuguese">Portuguese (Português)</option>
+                <option value="dutch">Dutch (Nederlands)</option>
+                <option value="norwegian">Norwegian (Norsk)</option>
+                <option value="frisian">Frisian (Frysk)</option>
+                <option value="gaelic">Gaelic (Gàidhlig)</option>
+                <option value="swedish">Swedish (Svenska)</option>
+                <option value="danish">Danish (Dansk)</option>
+                <option value="icelandic">Icelandic (Íslenska)</option>
+                <option value="greek">Greek (Ελληνικά)</option>
+                <option value="irish">Irish (Gaeilge)</option>
+                <option value="russian">Russian (Русский)</option>
+            </select>
+            <input type="text" id="word1" placeholder="Write the word" oninput="updateWord2()">
+        </div>
+        <div>
+            <label for="language2">Select the compared language:</label>
+            <select id="language2" onchange="updateWord2()">
+                <option value="german">German (Deutsch)</option>
+                <option value="english">English (English)</option>
+                <option value="spanish">Spanish (Español)</option>
+                <option value="french">French (Français)</option>
+                <option value="italian">Italian (Italiano)</option>
+                <option value="portuguese">Portuguese (Português)</option>
+                <option value="dutch">Dutch (Nederlands)</option>
+                <option value="norwegian">Norwegian (Norsk)</option>
+                <option value="frisian">Frisian (Frysk)</option>
+                <option value="gaelic">Gaelic (Gàidhlig)</option>
+                <option value="swedish">Swedish (Svenska)</option>
+                <option value="danish">Danish (Dansk)</option>
+                <option value="icelandic">Icelandic (Íslenska)</option>
+                <option value="greek">Greek (Ελληνικά)</option>
+                <option value="irish">Irish (Gaeilge)</option>
+                <option value="russian">Russian (Русский)</option>
+            </select>
+            <input type="text" id="word2" placeholder="The compared word" readonly>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
