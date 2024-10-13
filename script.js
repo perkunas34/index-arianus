@@ -212,7 +212,7 @@ const icelandicDictionary = {
     "átta": { french: "huit", spanish: "ocho", english: "eight", italian: "otto", portuguese: "oito", dutch: "acht", norwegian: "åtte", scottish: "ochd", swedish: "åtta", danish: "otte", icelandic: "átta", greek: "οκτώ", irish: "a hocht", russian: "восемь", bulgarian: "осем", czech: "osm", slovak: "osem", polish: "osiem", ukrainian: "вісім", romanian: "opt", latvian: "astoņi", lithuanian: "aštuoni", persian: "hasht", kurdish: "heşt", hindi: "आठ" },
     "níu": { french: "neuf", spanish: "nueve", english: "nine", italian: "nove", portuguese: "nove", dutch: "negen", norwegian: "ni", scottish: "naoi", swedish: "nio", danish: "ni", icelandic: "níu", greek: "εννέα", irish: "a naoi", russian: "девять", bulgarian: "девет", czech: "devět", slovak: "deväť", polish: "dziewięć", ukrainian: "дев’ять", romanian: "nouă", latvian: "deviņi", lithuanian: "devyni", persian: "noh", kurdish: "nuh", hindi: "नौ" }, 
     "tíu": { french: "dix", spanish: "diez", english: "ten", italian: "dieci", portuguese: "dez", dutch: "tien", norwegian: "ti", scottish: "deich", swedish: "tio", danish: "ti", icelandic: "tíu", greek: "δέκα", irish: "a deich", russian: "десять", bulgarian: "десет", czech: "deset", slovak: "desať", polish: "dziesięć", ukrainian: "десять", romanian: "zece", latvian: "desmit", lithuanian: "dešimt", persian: "dah", kurdish: "deh", hindi: "दस" }, 
-  };  
+};  
 
 
 const greekDictionary = {
