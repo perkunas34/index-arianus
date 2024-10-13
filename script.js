@@ -486,6 +486,28 @@ function updateWord2() {
         translation = irishDictionary[word1][lang2] || "";
     } else if (lang1 === "russian" && word1 in russianDictionary) {
         translation = russianDictionary[word1][lang2] || "";
+    } else if (lang1 === "bulgarian" && word1 in bulgarianDictionary) {
+        translation = bulgarianDictionary[word1][lang2] || "";
+    } else if (lang1 === "czech" && word1 in czechDictionary) {
+        translation = czechDictionary[word1][lang2] || "";
+    } else if (lang1 === "slovak" && word1 in slovakDictionary) {
+        translation = slovakDictionary[word1][lang2] || "";
+    } else if (lang1 === "polish" && word1 in polishDictionary) {
+        translation = polishDictionary[word1][lang2] || "";
+    } else if (lang1 === "ukrainian" && word1 in ukrainianDictionary) {
+        translation = ukrainianDictionary[word1][lang2] || "";
+    } else if (lang1 === "romanian" && word1 in romanianDictionary) {
+        translation = romanianDictionary[word1][lang2] || "";
+    } else if (lang1 === "latvian" && word1 in latvianDictionary) {
+        translation = latvianDictionary[word1][lang2] || "";
+    } else if (lang1 === "lithuanian" && word1 in lithuanianDictionary) {
+        translation = lithuanianDictionary[word1][lang2] || "";
+    } else if (lang1 === "persian" && word1 in persianDictionary) {
+        translation = persianDictionary[word1][lang2] || "";
+    } else if (lang1 === "kurdish" && word1 in kurdishDictionary) {
+        translation = kurdishDictionary[word1][lang2] || "";
+    } else if (lang1 === "hindi" && word1 in hindiDictionary) {
+        translation = hindiDictionary[word1][lang2] || "";
     }
 
 
